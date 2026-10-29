@@ -7,7 +7,8 @@ Nat. Commun. 12, 408 (2021), doi:10.1038/s41467-020-20692-1.
     I    = G * (Kp*max(V,0)^3 + Kn*min(V,0)^3)
 
 The state G decays back to G0 between pulses, so the device's response depends on
-recent inputs (fading memory). That short-term memory is what a reservoir uses.
+recent inputs (fading memory), which is what a reservoir is meant to exploit. The control runs
+in the README test how much it actually contributes to spoken-digit accuracy.
 """
 
 import matplotlib.pyplot as plt
